@@ -1,0 +1,141 @@
+# DevAssist MCP Server - Production Dependencies
+# Model Context Protocol and Core Framework
+mcp
+mcp-server
+
+# HTTP Client and Async Support
+httpx
+aiohttp
+asyncio-mqtt
+
+# Data Validation and Serialization
+pydantic
+pydantic-settings
+marshmallow
+
+# CLI Framework and User Interface
+click
+rich
+typer
+colorama
+
+# Template Engine and Documentation
+jinja2
+markdown
+mkdocs
+mkdocs-material
+
+# File Processing and Analysis
+python-magic
+chardet
+pathlib2
+
+# Code Analysis and AST Processing
+ast-comments
+astroid
+pylint
+bandit
+radon
+
+# JSON and YAML Processing
+orjson
+PyYAML
+jsonschema
+json5
+
+# Configuration Management
+python-dotenv
+configparser
+toml
+dynaconf
+
+# Testing Framework Dependencies
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+pytest-xdist
+
+# Development and Code Quality
+black
+isort
+flake8
+mypy
+pre-commit
+autopep8
+
+# Documentation Generation
+sphinx
+sphinx-rtd-theme
+myst-parser
+
+# Logging and Monitoring
+loguru
+structlog
+sentry-sdk
+
+# Performance and Optimization
+cachetools
+memory-profiler
+psutil
+
+# Type Hints and Compatibility
+typing-extensions
+types-PyYAML
+types-requests
+
+# Security and Encryption
+cryptography
+passlib
+bcrypt
+
+# Database Support (Optional)
+sqlalchemy
+
+# API and Web Framework Support
+fastapi
+uvicorn
+starlette
+
+# Git Integration
+GitPython
+dulwich
+
+# File System Utilities
+watchdog
+send2trash
+
+# Network and Protocol Support
+websockets
+python-multipart
+
+# Parsing and Text Processing
+beautifulsoup4
+lxml
+regex
+
+# Data Science and Analysis (for advanced features)
+pandas
+numpy
+matplotlib
+
+# Development Utilities
+pip-tools
+wheel
+setuptools
+
+# Platform-specific dependencies
+pywin32; sys_platform == "win32"
+pyobjc; sys_platform == "darwin"
+
+# Optional AI/ML Dependencies (for advanced code analysis)
+transformers
+torch
+scikit-learn
+
+# Development-only dependencies (commented for production)
+# Uncomment these for development environment
+# jupyter
+# ipython
+# notebook
+# debugpy
